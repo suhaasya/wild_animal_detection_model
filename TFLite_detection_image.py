@@ -14,8 +14,9 @@ GPIO.setmode(GPIO.BCM)
 buzzer=21
 GPIO.setup(buzzer,GPIO.OUT)
 
-SID = 'AC924b878b6189745789452a7d8647833e'
-AUTH_TOKEN = '536b925761928e9f94bb69793dba50d2'
+# Get following parameters from twillio site and paste it here
+SID = '' 
+AUTH_TOKEN = ''
 
 cl = Client(SID, AUTH_TOKEN)
 
